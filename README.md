@@ -15,7 +15,7 @@ Create a jbossas-7 application
 Add this upstream kitchensink-html5-mobile repo
 
     cd kitchensinkhtml5
-    git remote add upstream -m master git://github.com/openshift/kitchensink-html5-mobile-example.git
+    git remote add upstream -m master git://github.com/eschabell/kitchensink-html5-mobile-example.git
     git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream
