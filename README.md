@@ -1,5 +1,5 @@
-Kitchensink on OpenShift
-=========================
+Cloud Tour mobile app on OpenShift
+==================================
 
 This is the kitchensink html5/mboile JBoss Quickstart app.
 
@@ -10,12 +10,12 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7 application
 
-    rhc app create -a kitchensinkhtml5 -t jbossas-7
+    rhc app create -a cloudtour -t jbossas-7
 
-Add this upstream kitchensink-html5-mobile repo
+Add this upstream cloudtour repo
 
-    cd kitchensinkhtml5
-    git remote add upstream -m master git://github.com/eschabell/kitchensink-html5-mobile-example.git
+    cd cloudtour
+    git remote add upstream -m master git://github.com/eschabell/openshift-cloudtour.git
     git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream
@@ -24,4 +24,4 @@ Then push the repo upstream
 
 That's it, you can now checkout your application at:
 
-    http://kitchensinkhtml5-$namespace.rhcloud.com
+    http://cloudtour-$namespace.rhcloud.com
