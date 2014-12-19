@@ -1,16 +1,11 @@
 Cloud Tour mobile app on OpenShift
 ==================================
-
 This is the kitchensink html5/mboile JBoss Quickstart app.
 
-Running on OpenShift
---------------------
 
-Create an account at http://openshift.redhat.com/
-
-Create a jbossas-7 application
-
-    rhc app create -a cloudtour -t jbossas-7 --from-code git://github.com/eschabell/openshift-cloudtour.git
+Install with one click
+----------------------
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbossas-7&initial_git_url=https://github.com/eschabell/openshift-cloudtour.git&name=cloudtour)
 
 That's it, you can now checkout your application at:
 
