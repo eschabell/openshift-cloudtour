@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-cloudtour)
+
+
 Cloud Tour mobile app on OpenShift
 ==================================
 This is the kitchensink html5/mboile JBoss Quickstart app.
